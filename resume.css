@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+ul.list-unstyled li {
+    margin-bottom: 10px;
+}
+
+ul.list-inline .badge {
+    margin-right: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.project-title {
+    font-size: 1.25rem; /* Adjust the size as needed */
+    font-weight: bold;
+    color: darkblue; /* Bootstrap primary color */
+    margin-bottom: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(140, 140, 194);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+
+.list-inline-item.badge:hover {
+    background-color: #ffc107; /* Bootstrap warning color */
+    color: #212529; /* Text color for better contrast */
+}
+
+.social-icons a {
+    margin: 0 10px; /* Adds space between icons */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-icons a:hover {
+   
+   background-color: #212529;
+   text-decoration: none;
+}
+
